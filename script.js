@@ -12,7 +12,7 @@ const weather_body=document.querySelector('.weather-body')
 
 async function checkWeather(city)
 {
-    const api_key="b3b4ea5c54312eac20a5f54fc0590a82";
+    const api_key="xyz";
     const url=`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}`; 
     
     //fetch fuc =jo url se request lake dega jo data parse kerega jo ki json hoga usko string me convert ker ke dega 
